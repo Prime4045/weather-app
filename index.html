@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter the city">
+            <button title="weather"><img src="Images/icons8-search-50.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid City</p>
+        </div>
+        <div class="weather">
+            <img src="Images/sun.png" alt="" class="weather_icon">
+            <div class="aqiBox">
+                <p class="aqi">AQI 100</p>
+            </div>
+            <h1 class="temp">20°C</h1>
+            <h2 class="city">Jhunjhunu</h2>
+            <div class="details">
+                <div class="col-1">
+                    <img src="Images/icons8-moisture-96.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="Images/icons8-wind-96.png" alt="">
+                    <div>
+                        <p class="wind">25 Km/h</p>
+                        <p>Wind</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #2c2c2c;
+}
+
+.container{
+    width: 90%;
+    max-width: 470px;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 30px 35px;
+    background: linear-gradient(to right, #22c1c3, #fdbb2d);
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    width: 80%;
+    padding: 10px 25px; 
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.search button{
+    width: 60px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.search button img{
+    width: 20px;
+    height: 20px;
+}
+
+.search button:hover, .search input:hover{
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+}
+
+.weather{
+    width: 100%;
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    display: none;
+}
+
+.weather img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.aqiBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aqi{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 2px;
+    font-weight: 600;
+    background-color: #000000;
+    width: 100px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.temp{
+    margin-top: 0px;
+    font-size: 50px;
+    color: #ff0000;
+}
+
+.city{
+    margin-top: -10px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.details{
+    display: flex;
+    margin: 10px 0px;
+    padding: 0 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: left; */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.weather .details img{
+    width: 60px;
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 10px;
+    height: 60px;
+}
